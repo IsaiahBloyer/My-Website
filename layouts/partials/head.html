@@ -1,10 +1,14 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<title>{{ .Title }}</title>
-<link href="https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap" rel="stylesheet"> 
-<style>
-	* {
-		font-family: "sometype mono", sans-serif;
-	}
-</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ .Title }}</title>
+
+	<!-- Styles -->
+	<link href="https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap" rel="stylesheet"> 
+	{{ $opts := dict "transpiler" "libsass" "targetPath" "css/style.css" }}
+	{{- with resources.Get "./scss/main.scss" | toCSS $opts | minify | fingerprint -}}
+	<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+	{{ end }}
+	
+	<!-- Scripts -->
+	<script src="https://unpkg.com/mailgo@0.12.2/dist/mailgo.min.js" async></script>
+	<script src="https://kit.fontawesome.com/804271e0af.js" crossorigin="anonymous"></script>

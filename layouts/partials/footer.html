@@ -1,5 +1,10 @@
-<div class="container">
-	<footer class="shadow-lg bg-body-tertiary py-3 mt-4 fixed-bottom">
-		<p class="text-center text-body-secondary">2024 | {{ .Site.Title }}</p>
-	</footer>
-</div>
+<footer class="shadow-lg mt-auto bg-body-tertiary py-4">
+	<div class="text-center text-body-secondary">
+		<section class="pb-1">
+			<a class="btn" href="{{ .Site.Params.github }}" role="button" target="_blank"><i class="fa-brands fa-github text-body-secondary"></i></a>
+			<a class="btn" href="{{ .Site.Params.linkedin }}" role="button" target="_blank"><i class="fa-brands fa-linkedin text-body-secondary"></i></a>
+			<a class="btn dark" href="mailto:{{ .Site.Params.email }}" role="button" ><i class="fa-solid fa-envelope text-body-secondary"></i></a>
+		</section>
+		<p class="fs-5">2024 | {{ .Site.Title }}</p>
+	</div>
+</footer>

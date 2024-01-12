@@ -1,0 +1,13 @@
+.intro {
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	@extend .d-flex;
+	flex-direction: column;
+	overflow: auto;
+	@extend .text-center;
+
+	#welcome {
+		@extend .display-1;
+	}
+}
