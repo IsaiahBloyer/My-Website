@@ -1,13 +1,27 @@
-.intro {
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+.index-main {
+	@extend .px-5;
 	@extend .d-flex;
 	flex-direction: column;
+	align-items: center;
 	overflow: auto;
-	@extend .text-center;
 
-	#welcome {
-		@extend .display-1;
+	p {
+		width: 75%;
+		@extend .fs-5;
+	}
+
+	.intro {
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		@extend .d-flex;
+		flex-direction: column;
+		overflow: auto;
+		@extend .text-center;
+		width: 100%;
+	
+		#welcome {
+			@extend .display-1;
+		}
 	}
 }

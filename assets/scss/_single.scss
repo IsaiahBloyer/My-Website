@@ -1,0 +1,16 @@
+.single-main {
+	@extend .d-flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
+
+	p {
+		width: 75%;
+		@extend .fs-5;
+	}
+
+	#resume_download > a {
+		text-decoration: none;
+		color: inherit;
+	}
+}

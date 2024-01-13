@@ -3,9 +3,10 @@ languageCode = 'en-us'
 title = 'Isaiah (Ike) Bloyer'
 
 [params]
-github = 'https://github.com/ike2117/'
+github = 'https://github.com/IsaiahBloyer/'
 linkedin = 'https://www.linkedin.com/in/isaiah-bloyer-969958248/'
 email = "isaiah@bloyer.net"
+resumeEmbed = 'https://docs.google.com/document/d/1WudEUMyRaUdkxWGRB3ewsA810ExDGEGq-McnkeeKaG8/edit?usp=sharing'
 
 [markup]
   [markup.goldmark]
@@ -16,5 +17,3 @@ email = "isaiah@bloyer.net"
 [module]
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
-
-disableKinds = ["taxonomy"]
