@@ -4,9 +4,8 @@ title = 'Isaiah (Ike) Bloyer'
 
 [params]
 github = 'https://github.com/IsaiahBloyer/'
-linkedin = 'https://www.linkedin.com/in/isaiah-bloyer-969958248/'
+linkedin = 'https://www.linkedin.com/in/isaiah-bloyer/'
 email = "isaiah@bloyer.net"
-resumeEmbed = 'https://docs.google.com/document/d/1WudEUMyRaUdkxWGRB3ewsA810ExDGEGq-McnkeeKaG8/edit?usp=sharing'
 
 [markup]
   [markup.goldmark]
