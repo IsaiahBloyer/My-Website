@@ -23,5 +23,12 @@
 		#welcome {
 			@extend .display-1;
 		}
+
+		img {
+			@extend .pt-4;
+			max-width: 40%;
+			border-radius: 50%;
+		}
 	}
 }
+
