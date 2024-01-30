@@ -15,4 +15,4 @@ Since the age of 5, tech has been one of my main hobbies. I still remember my un
 
 Outside of tech, I'm a baseball and football fan. Some may say that my choice in teams is a bit odd. Being from South Florida, I'm a Miami Hurricanes, Miami Dolphins, and Miami Marlins (despite our ongoing love-hate relationship) fan. In addition, my father is from Wisconsin, so I was exposed to and became a fan of the Green Bay Packers and Milwaukee Brewers. Lastly, I am a fan of UCF Knights, my alma mater.
 
-I'm currently looking for employment either remotely or anywhere in Florida south of Orlando. Feel free to read my resume located at the top right or find my contact information down below!
+I'm currently looking for employment either remote, hybrid, in person. Feel free to read my resume located at the top right or find my contact information down below!
